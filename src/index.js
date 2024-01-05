@@ -14,4 +14,3 @@
 
 //The above code is about the pop in alert with the prime president etc -->
 
-alert("Hello ");
