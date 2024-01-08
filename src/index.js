@@ -19,7 +19,7 @@ function displayPoem(response){
    strings:response.data.answer, 
    autoStart: true,
    cursor: null,
-   delay: 60,
+   delay: 50,
  });
        
 }
@@ -29,7 +29,7 @@ function generatePoem(event){
     event.preventDefault();
 let apiKey = "oe3107c03bbf1b061844a8c3d518t9b3";
 let context = "you're a romantic poem expert";
-let prompt = "tell me a short poem ";
+let prompt = "tell me a very short poem ";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 axios.get(apiUrl).then(displayPoem);
 
