@@ -46,6 +46,18 @@ form{
     border-radius: 5px;
 }
 
+.submit-button:hover{
+    margin-left: 10px;
+    background-color:white;
+    color:purple;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
 .poem{
     font-size: 14px;
     background-color: #fff;
